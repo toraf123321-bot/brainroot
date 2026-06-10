@@ -65,6 +65,23 @@ a:hover { text-decoration: underline; }
   padding: 80px 32px;
   text-align: center;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background: var(--kolor-glowny);
+  color: white;
+}
+tr:hover {
+  background: #f5f5f5;
+}
 
 .hero h1 { font-size: 2.5rem; margin-bottom: 16px; }
 .hero p { font-size: 1.2rem; opacity: 0.95; margin-bottom: 24px; }
